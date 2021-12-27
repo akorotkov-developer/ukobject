@@ -12,7 +12,7 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 ?>
-  <h3 class="wow-outer text-center"><span class="wow slideInDown">Новости</span></h3>
+  <h3 class="wow-outer text-center"><span class="wow">Новости</span></h3>
           <div class="row row-40">
 <?foreach($arResult["ITEMS"] as $arItem):?>
 	<?
@@ -22,7 +22,7 @@ $this->setFrameMode(true);
     
     <div class="col-md-6 wow-outer">
               <!-- Post Modern-->
-              <article class="post-modern wow slideInLeft"><a class="post-modern-media" href="<?echo $arItem["DETAIL_PAGE_URL"]?>"><img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>" alt="<?echo $arItem["NAME"]?>"/></a>
+              <article class="post-modern wow"><a class="post-modern-media" href="<?echo $arItem["DETAIL_PAGE_URL"]?>"><img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>" alt="<?echo $arItem["NAME"]?>"/></a>
                 <h4 class="post-modern-title"><a href="<?echo $arItem["DETAIL_PAGE_URL"]?>"><?echo $arItem["NAME"]?></a></h4>
                 <ul class="post-modern-meta">
                 <?

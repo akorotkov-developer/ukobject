@@ -124,7 +124,7 @@
       if($APPLICATION->GetCurPage()!="/")
       {
         ?>
-        <section class="section breadcrumbs-custom bg-image novi-background">
+        <section class="section breadcrumbs-custom bg-image novi-background" style="background-image: url(<?= SITE_TEMPLATE_PATH ?>/images/breadcrumbs-image-2.jpg);">
         <div class="breadcrumbs-custom-inner">
           <div class="container breadcrumbs-custom-container">
             <div class="breadcrumbs-custom-main">
