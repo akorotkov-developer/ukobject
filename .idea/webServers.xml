@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4b9d8e0b-f800-47b0-b3dc-03fea835c834" name="SFTP">
+        <fileTransfer rootFolder="/home/u/ukobject/uk-object.ru/public_html" accessType="SFTP" host="uk-object.ru" port="22" sshConfigId="71ef6e45-0f2b-4561-8396-2c711babc83f" sshConfig="ukobject_admin@uk-object.ru:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
