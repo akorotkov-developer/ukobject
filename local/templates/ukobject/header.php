@@ -86,7 +86,6 @@
                   <div class="rd-navbar-search" id="rd-navbar-search-1">
                     <button class="rd-navbar-search-toggle" data-rd-navbar-toggle="#rd-navbar-search-1"><span></span></button>
                     <form class="rd-search" action="/search/" data-search-live="rd-search-results-live-1" method="GET">
-                    <input type="hidden" name="s" value="Y"/>
                       <div class="form-wrap">
                         <label class="form-label" for="rd-navbar-search-form-input-1">Поиск...</label>
                         <input class="form-input rd-navbar-search-form-input" id="rd-navbar-search-form-input-1" type="text" name="q" value="<?=$_REQUEST["q"]?>" autocomplete="off">
