@@ -59,8 +59,6 @@ $APPLICATION->SetTitle("Контакты");
                       <div class="wow-outer"> 
                         <button class="button button-primary button-winona wow slideInRight" type="submit">ОТПРАВИТЬ</button>
                       </div>
-                      <p>или использовать</p>
-                      <div class="wow-outer"><a class="button button-primary-outline button-icon button-icon-left button-winona wow slideInLeft" href="#"><span class="icon novi-icon text-primary mdi mdi-facebook-messenger"></span>МЕССЕНДЖЕР</a></div>
                     </div>
                   </form>
                 </div>
