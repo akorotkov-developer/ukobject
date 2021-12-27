@@ -151,7 +151,9 @@ $APPLICATION->IncludeComponent("bitrix:search.tags.cloud", ".default", $arCloudP
                         <div class="wow scaleFadeIn">
                             <article class="post-modern">
 
-                                <a href="<?echo $arItem["URL"]?>"><?echo $arItem["TITLE_FORMATED"]?></a>
+                                <h4 class="post-modern-title">
+                                    <a href="<?echo $arItem["URL"]?>"><?echo $arItem["TITLE_FORMATED"]?></a>
+                                </h4>
                                 <p><?echo $arItem["BODY_FORMATED"]?></p>
                                 <?if (
                                     $arParams["SHOW_RATING"] == "Y"
