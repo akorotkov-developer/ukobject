@@ -146,4 +146,17 @@
         <?
       }
       ?>
+
+
+        <?php
+        $curDir = $APPLICATION->GetCurDir();
+        $menu = new CMenu('left');
+        if ($menu->Init($curDir)) { ?>
+            <section class="section section-md novi-background">
+                <div class="container">
+                    <div class="row row-50">
+                        <div class="col-lg-8">
+                            <article class="post-creative">
+                                <h3 class="post-creative-title"><?= $APPLICATION->ShowTitle(); ?></h3>
+        <?php } ?>
      

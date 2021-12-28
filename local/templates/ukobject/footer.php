@@ -1,3 +1,32 @@
+<?php
+$curDir = $APPLICATION->GetCurDir();
+$menu = new CMenu('left');
+if ($menu->Init($curDir)) { ?>
+                    </article>
+                </div>
+                <div class="col-lg-4">
+                    <!-- Profile Thin-->
+                    <article class="profile-thin novi-background">
+                        <? $APPLICATION->IncludeComponent('bitrix:menu', 'left',
+                            [
+                                'DELAY' => 'N',
+                                'DEPTH_LEVEL' => 99,
+                                'MAX_LEVEL' => 99,
+                                "CHILD_MENU_TYPE" => "left",
+                                'MENU_CACHE_TIME' => 3600,
+                                'MENU_CACHE_TYPE' => 'A',
+                                'MENU_CACHE_USE_GROUPS' => 'N',
+                                'ROOT_MENU_TYPE' => 'left',
+                                'USE_EXT' => 'Y',
+                            ]);
+                        ?>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+<?php } ?>
+
 <!-- Page Footer-->
       <footer class="section footer-advanced bg-gray-800 novi-background">
         <div class="footer-advanced-main">
