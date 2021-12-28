@@ -127,7 +127,17 @@
         <div class="breadcrumbs-custom-inner">
           <div class="container breadcrumbs-custom-container">
             <div class="breadcrumbs-custom-main">
-              <h6 class="breadcrumbs-custom-subtitle title-decorated"><?$APPLICATION->ShowTitle(false)?></h6>
+                <div class="title-breadcumps">
+                  <?$APPLICATION->IncludeComponent(
+                      "bitrix:breadcrumb",
+                      "top_nav",
+                      Array(
+                          "PATH" => "",
+                          "SITE_ID" => "s1",
+                          "START_FROM" => "0"
+                      )
+                  );?>
+                </div>
               <h1 class="breadcrumbs-custom-title"><?$APPLICATION->ShowTitle(false)?></h1>
             </div>
             <?$APPLICATION->IncludeComponent(

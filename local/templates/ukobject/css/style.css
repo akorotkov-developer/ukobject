@@ -5029,6 +5029,7 @@ html:not(.tablet):not(.mobile) .thumbnail-indigo:hover .thumbnail-indigo-caption
 
 .breadcrumbs-custom .breadcrumbs-custom-subtitle {
 	color: #74757f;
+	margin-right: 15px;
 }
 
 .breadcrumbs-custom-inner {
