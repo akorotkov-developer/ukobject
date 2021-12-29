@@ -126,13 +126,13 @@ if ($menu->Init($curDir)) { ?>
         </div>
       </footer>
     </div>
-    <div class="preloader">
+    <!--<div class="preloader">
       <div class="preloader-body">
         <div id="loadingProgressG">
           <div class="loadingProgressG" id="loadingProgressG_1"></div>
         </div>
       </div>
-    </div>
+    </div>-->
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
     <!-- Javascript-->
