@@ -161,7 +161,7 @@
         <?php
         $curDir = $APPLICATION->GetCurDir();
         $menu = new CMenu('left');
-        if ($menu->Init($curDir)) { ?>
+        if ($menu->Init($curDir) && http_response_code() != 404) { ?>
             <section class="section section-md novi-background">
                 <div class="container">
                     <div class="row row-50">
@@ -169,4 +169,3 @@
                             <article class="post-creative">
 
         <?php } ?>
-     

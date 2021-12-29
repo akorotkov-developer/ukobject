@@ -1,7 +1,7 @@
 <?php
 $curDir = $APPLICATION->GetCurDir();
 $menu = new CMenu('left');
-if ($menu->Init($curDir)) { ?>
+if ($menu->Init($curDir) && http_response_code() != 404) { ?>
                     </article>
                 </div>
                 <div class="col-lg-4">
