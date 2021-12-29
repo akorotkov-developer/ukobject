@@ -127,7 +127,7 @@
         <div class="breadcrumbs-custom-inner">
           <div class="container breadcrumbs-custom-container">
             <div class="breadcrumbs-custom-main">
-                <div class="title-breadcumps">
+                <div class="title-breadcumps title-breadcumps-hidden">
                   <?$APPLICATION->IncludeComponent(
                       "bitrix:breadcrumb",
                       "top_nav",
@@ -167,6 +167,6 @@
                     <div class="row row-50">
                         <div class="col-lg-8">
                             <article class="post-creative">
-                                <h3 class="post-creative-title"><?= $APPLICATION->ShowTitle(); ?></h3>
+
         <?php } ?>
      

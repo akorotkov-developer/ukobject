@@ -16,7 +16,7 @@ $strReturn = '';
 
 $itemSize = count($arResult);
 
-$strReturn .= '<h6 class="breadcrumbs-custom-subtitle title-decorated"><a href="/">Главная</a></h6>';
+$strReturn .= '<h6 class="breadcrumbs-custom-subtitle title-decorated">Главная</h6>';
 
 for($index = 0; $index < $itemSize; $index++)
 {
@@ -26,18 +26,13 @@ for($index = 0; $index < $itemSize; $index++)
 	if($arResult[$index]["LINK"] <> "" && $index != $itemSize-1)
 	{
 		$strReturn .= '
-			<h6 class="breadcrumbs-custom-subtitle">
+			<h6 class="breadcrumbs-custom-subtitle title-decorated">
 				
-				<a href="'.$arResult[$index]["LINK"].'" title="'.$title.'" itemprop="item">
-					'.$title.' > 
-				</a>
+				
+					'.$title.' 
+				
 				<meta itemprop="position" content="'.($index + 1).'" />
 			</h6>';
-	}
-	else
-	{
-		$strReturn .= '
-			<h6 class="breadcrumbs-custom-subtitle">'.$title.'</h6>';
 	}
 }
 

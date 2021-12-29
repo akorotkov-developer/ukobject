@@ -1,3 +1,9 @@
 .title-breadcumps {
     display: flex;
 }
+.title-breadcumps-hidden h6 {
+    display: none;
+}
+.title-breadcumps-hidden h6:last-child {
+    display: block;
+}
