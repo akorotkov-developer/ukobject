@@ -1,43 +1,57 @@
 <?
 $aMenuLinks = [
     Array(
-        "Общая информация об управляющей организации",
-        "/disclosure/",
+        "Оплата онлайн",
+        "/personal/payment/",
         Array(),
         Array(),
         ""
     ),
     Array(
-        "Уведомления об ограничениях коммунальных услуг",
-        "/about/",
+        "Оборотная ведомость",
+        "/personal/circulating-sheet/",
         Array(),
         Array(),
         ""
     ),
     Array(
-        "Тарифы на коммунальные ресурcы",
-        "/service/",
+        "Начисления и долги",
+        "/personal/charges/",
         Array(),
         Array(),
         ""
     ),
     Array(
-        "Содержание и ремонт общего имущества",
-        "/objects/",
+        "Квитанция на оплату коммунальных услуг",
+        "/personal/receipt/",
         Array(),
         Array(),
         ""
     ),
     Array(
-        "Личный кабинет",
-        "/personal/",
+        "Данные счетчиков",
+        "/personal/meters/",
         Array(),
         Array(),
         ""
     ),
     Array(
-        "Контакты",
-        "/contacts/",
+        "Мои заявки",
+        "/personal/support/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Управление подпиской",
+        "/personal/subscription/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Профиль",
+        "/personal/profile/",
         Array(),
         Array(),
         ""

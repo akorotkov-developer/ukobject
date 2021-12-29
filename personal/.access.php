@@ -1,0 +1,9 @@
+<?
+$PERM["circulating-sheet"]["*"]="D";
+$PERM["charges"]["*"]="D";
+$PERM["receipt"]["*"]="D";
+$PERM["meters"]["*"]="D";
+$PERM["support"]["*"]="D";
+$PERM["subscription"]["*"]="D";
+$PERM["profile"]["*"]="D";
+?>
